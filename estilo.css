@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: #d7dff0;
+}
+
+.perfil{
+    text-align: center;
+    max-width: 800px; 
+    width: 90%; 
+    margin: 40px auto; 
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+.nome {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.foto-perfil {
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin: 20px auto; /
+}
+
+hr {
+    border: 1px solid #aca4a4;
+    width: 100%;
+}
+
+.conteudo {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.titulo {
+    background-color: #c0c0c0;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.1em;
+    color: #272626;
+    line-height: 1.6;
+    text-align: justify;
+}
