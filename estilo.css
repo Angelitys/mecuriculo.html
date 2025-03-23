@@ -1,57 +1,57 @@
 body {
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background-color: #d7dff0;
+    font-family: sans-serif; /* FONTE DO TEXTO QUE SERÁ EXIBIDO  */
+    display: flex;  /* PARA ORGANIZAR OS ELEMENTOS DENTRO DO CORPO DO TEXTO */
+    justify-content: center;  /* CENTRALIZAR  */
+    align-items: center;  /* CENTRALIZAR */
+    margin: 0;  /* REMOVE AS MARGENS DO BODY */
+    background-color: #d7dff0;  /* DEFINE A COR DO FUBDO DA PÁGINA */
 }
 
 .perfil{
-    text-align: center;
-    max-width: 800px; 
-    width: 90%; 
-    margin: 40px auto; 
-    background-color: white;
-    padding: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    text-align: center;  /* CENTRALIZA O TEXTO */
+    max-width: 800px;   /* DEFINE A LARGURA EM 800 PIXELS */
+    width: 90%;   /* DEFINE COM 90% DE LARGURA*/
+    margin: 40px auto;   /* ADICONA MARGENS SUPERIOR E INFERIOR */
+    background-color: white;  /* DEFINE A COR COMO BRANCO*/
+    padding: 30px;  /* ADICIONA UM PREENCHIMENTO */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);  /* ADICIONA UMA SOMBRA */
+    border-radius: 8px;  /* DEIXAR MAIS ARREDONDADO  */
 }
 
 .nome {
-    font-size: 2em;
-    margin-bottom: 5px;
+    font-size: 2em;  /* DEFINE O TAMANHO DA FONTE */
+    margin-bottom: 5px;  /* MARGEM  */
 }
 
 .foto-perfil {
-    width: 150px; 
-    height: 150px;
-    border-radius: 50%; 
-    object-fit: cover; 
-    margin: 20px auto; /
+    width: 150px;   /* LARGURA  */
+    height: 150px;  /*  ALTURA */
+    border-radius: 50%;   /* ARREDONDA A FOTO */
+    object-fit: cover;  /* MANTEM A PROPORÇÃO NA FOTO */
+    margin: 20px auto;  /*  MARGEM*/
 }
 
 hr {
-    border: 1px solid #aca4a4;
-    width: 100%;
+    border: 1px solid #aca4a4;  /* DEFINE A COR DA BORDA DA LINHA */
+    width: 100%;  /* GARANTE QUE A LINHA OCUPE 100% */
 }
 
 .conteudo {
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #ffffff;  /* DEFINE A COR DO CONTEUDO */
+    padding: 20px;  /*ADICONA 20 PIXELS INTERNO  */
 }
 
 .titulo {
-    background-color: #c0c0c0;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: 10px;
+    background-color: #c0c0c0;  /* DEFINE A COR */
+    font-size: 1.5em;  /* DEFINE O TOMANHO DA FONTE  */
+    font-weight: bold;  /* DEIXA OS TITULOS EM NEGRITO */
+    text-decoration: underline;  /* SUBLINHA OS TITULOS */
+    margin-bottom: 10px;  /* ADICONA UMA MARGEM  */
 }
 
 p {
-    font-size: 1.1em;
-    color: #272626;
-    line-height: 1.6;
-    text-align: justify;
+    font-size: 1.1em;  /*  TAMANHO DA FONTE */
+    color: #272626;  /* COR DO TEXTO */
+    line-height: 1.6;  /* ESPAÇAMENTO DOS PARAGRAFOS  */
+    text-align: justify;  /* JUSTIFICA O TEXTO DO PARAGRAFO */
 }
